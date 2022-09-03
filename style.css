@@ -11,4 +11,37 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
+}
+body > .logo {
+  margin-left: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  font-family: "Google Sans Text";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/l/font?kit=5aUu9-KzpRiLCAt4Unrc-xIKmCU5mEhkgo3FI_E8lH570oBdIw&skey=b20c8ebc9802c116&v=v21) format("woff2");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  font-family: "Google Sans Text";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/l/font?kit=5aUu9-KzpRiLCAt4Unrc-xIKmCU5mEhkgo3FI_E8lH570oBdIw&skey=b20c8ebc9802c116&v=v21) format("woff2");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > .routes > a {
+  text-decoration: none;
+  margin: 30px 30px;
+  color: rgb(229, 230, 230);
+}
+nav > .routes > a:hover {
+  color: #FF7F00;
+  transform: scale(1.5);
 }/*# sourceMappingURL=style.css.map */
